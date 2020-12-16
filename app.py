@@ -20,4 +20,6 @@ def test():
         print(data)
         print(jsonify(data) )
         return "<h1> Great Success</h1>" , 200
-app.run()
+
+if(__name__ == "__main__"):        
+    app.run()
